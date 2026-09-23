@@ -57,3 +57,36 @@
     margin-top: 20px;
     display: inline-block;
 }
+
+/* --- RESPONSIVE PARA CELULARES --- */
+@media (max-width: 768px) {
+    .tarjetaDetalle {
+        flex-direction: column;
+        /* Apila imagen arriba y texto abajo */
+        align-items: center;
+        /* Centra el contenido */
+        padding: 15px;
+        /* Achica el margen interno en celu */
+        gap: 15px;
+        /* Achica el espacio entre imagen y texto */
+        box-sizing: border-box;
+        /* Evita que el padding agrande la tarjeta */
+    }
+
+    .imagenDetalle {
+        width: 100%;
+        /* La imagen ocupa todo el ancho disponible... */
+        max-width: 300px;
+        /* ...pero no pasa de los 300px originales */
+        height: auto;
+        /* Mantiene la proporción de la imagen */
+    }
+
+    .infoBox {
+        align-items: center;
+        /* Centra el texto y el botón en celu */
+        text-align: center;
+        width: 100%;
+        /* Asegura que no se desborde a los costados */
+    }
+}
