@@ -14,6 +14,10 @@
 .carritoVacio {
     text-align: center;
     margin-top: 40px;
+    color: #ffffff;
+    /* Fuerzo a que el texto sea blanco puro */
+    font-size: 1.2rem;
+    /* Lo hago un poquito más grande para que se lea mejor */
 }
 
 .linkVolver {
