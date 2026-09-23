@@ -1,0 +1,31 @@
+.contenedorWidget {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #222;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1px solid #00ffcc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contenedorWidget:hover {
+    background-color: #00ffcc;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.icono {
+    font-size: 1.2rem;
+}
+
+.numero {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Cambiamos el color del número al hacer hover para que resalte */
+.contenedorWidget:hover .numero {
+    color: #000;
+}

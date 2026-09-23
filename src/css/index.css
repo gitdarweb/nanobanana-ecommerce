@@ -1,0 +1,13 @@
+/* Agregamos esto en src/css/index.css */
+.tituloPrincipal {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.textoTemporal {
+    text-align: center;
+    color: #00ffcc;
+    font-style: italic;
+    margin-top: 20px;
+}

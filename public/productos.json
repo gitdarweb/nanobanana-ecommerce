@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Machete Táctico",
+        "precio": 5500,
+        "categoria": "armas",
+        "imagen": "https://i.ebayimg.com/images/g/ZHUAAOSwKs5mDv4T/s-l1600.webp",
+        "stock": 12
+    },
+    {
+        "id": 2,
+        "nombre": "Máscara Antigás NB-42",
+        "precio": 12000,
+        "categoria": "equipamiento",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_675846-MLA72412988834_102023-F.webp",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Raciones de Supervivencia (30 días)",
+        "precio": 8000,
+        "categoria": "alimentos",
+        "imagen": "https://m.media-amazon.com/images/I/81DxsyIp4hL._SL1500_.jpg",
+        "stock": 20
+    }
+]

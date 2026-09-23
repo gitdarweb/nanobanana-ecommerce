@@ -1,0 +1,26 @@
+.contenedorCatalogo {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.textoCargando {
+    color: #00ffcc;
+    font-style: italic;
+    animation: parpadeo 1.5s infinite;
+}
+
+/* Un pequeño efecto para que parezca que está escaneando */
+@keyframes parpadeo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

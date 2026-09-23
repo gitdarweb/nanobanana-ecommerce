@@ -1,0 +1,50 @@
+.tarjetaSuministro {
+    border: 1px solid #00ffcc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.tarjetaSuministro:hover {
+    transform: translateY(-5px);
+    /* Pequeño salto al pasar el mouse */
+    box-shadow: 0 5px 15px rgba(0, 255, 204, 0.2);
+}
+
+.imagenSuministro {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.precio {
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+.stock {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.botonDetalle {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.botonDetalle:hover {
+    background-color: #fff;
+    box-shadow: 0 0 10px #00ffcc;
+}

@@ -1,0 +1,17 @@
+.contenedorBase {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.textoCargando {
+    color: #00ffcc;
+    font-style: italic;
+    animation: parpadeo 1.5s infinite;
+}
+
+.textoError {
+    color: #ff4444;
+    font-weight: bold;
+}
