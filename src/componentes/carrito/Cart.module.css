@@ -61,3 +61,92 @@
 .botonDescartar:hover {
     background-color: #cc0000;
 }
+
+.totalCarrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem 0;
+    padding: 0.8rem 1rem;
+    background-color: #0f1411;
+    border: 1px solid #3a4a3f;
+    border-radius: 6px;
+    font-size: 1.15rem;
+    color: #00ffcc;
+}
+
+.formCheckout {
+    margin-top: 1.8rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #3a4a3f;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.subtituloCheckout {
+    margin: 0 0 0.4rem 0;
+    color: #84cc16;
+    font-size: 1.1rem;
+}
+
+.formCheckout input {
+    padding: 0.65rem;
+    border-radius: 4px;
+    border: 1px solid #475569;
+    background-color: #0f1411;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.botonConfirmar {
+    margin-top: 0.4rem;
+    padding: 0.8rem;
+    background-color: #65a30d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botonConfirmar:hover {
+    background-color: #4d7c0f;
+}
+
+.botonConfirmar:disabled {
+    background-color: #475569;
+    cursor: not-allowed;
+}
+
+.comprobante {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #1a1f1c;
+    border: 1px solid #65a30d;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+.tituloExito {
+    color: #84cc16;
+    margin-bottom: 0.8rem;
+}
+
+.codigoOrden {
+    margin: 1.2rem 0;
+    padding: 0.75rem;
+    background-color: #0f1411;
+    border-radius: 4px;
+    color: #00ffcc;
+    word-break: break-all;
+}
+
+.errorCheckout {
+    color: #f87171;
+    font-size: 0.9rem;
+    margin: 0;
+}

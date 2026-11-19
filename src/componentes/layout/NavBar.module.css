@@ -1,6 +1,7 @@
 .navApocaliptica {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     margin-top: 15px;
 }
@@ -17,4 +18,21 @@
 .linkNavegacion:hover {
     color: #00ffcc;
     border-bottom: 1px solid #00ffcc;
+}
+
+.botonSalir {
+    background-color: transparent;
+    color: #ff6b6b;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #ff6b6b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botonSalir:hover {
+    background-color: #ff6b6b;
+    color: #000;
 }
